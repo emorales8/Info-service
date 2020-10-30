@@ -59,7 +59,7 @@ func getCar(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 	json.NewEncoder(w).Encode(car)
-	fmt.Println("Successfully Selected from MySQL database")
+	fmt.Println("Successfully Selected from myMariadb database")
 }
 
 func handleRequests() {
