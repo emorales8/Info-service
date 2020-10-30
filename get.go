@@ -63,7 +63,7 @@ func getCar(w http.ResponseWriter, r *http.Request) {
 }
 
 func handleRequests() {
-	fmt.Println("You are using my-get-go-app")
+	fmt.Println("You are using my-get-go-app service")
 	// creates a new instance of a mux router
 	myRouter := mux.NewRouter().StrictSlash(true)
 	//myRouter := mux.NewRouter()
