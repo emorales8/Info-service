@@ -35,7 +35,7 @@ func connect() {
 		panic(err.Error())
 	}
 
-	fmt.Println("Successfully Connected to MySQL database")
+	fmt.Println("Successfully Connected to MySQL database!")
 }
 
 func getCar(w http.ResponseWriter, r *http.Request) {
